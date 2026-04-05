@@ -9,6 +9,7 @@ My goal here is to show how I balance "Happy Path" testing (a perfect purchase) 
 I’ve built these scenarios to handle the critical steps of a secure checkout:
 
 * **Checkout Handshake:** Testing the flow from the "Shopping Cart" through to the final "Thank You" confirmation to ensure no data is lost during the process.
+* **Cart Validation:** Verifying that the cart badge and item count update accurately when adding multiple products.
 * **Shipping Validation:** Verifying that the system correctly identifies missing required information (First Name, Last Name, and Postal Code) before allowing a purchase to proceed.
 * **User Confirmation:** Ensuring the final success message is triggered only after a complete, valid transaction.
 
