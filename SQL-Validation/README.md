@@ -17,5 +17,6 @@ I’ve focused on the common "pain points" I’ve seen in educational software:
 1. **[SQL_Validation_Scripts.sql](https://github.com/mads-ang/Professional-QA-Portfolio/blob/main/SQL-Validation/SIS_Data_Integrity_Audit.sql):** You’ll find the actual queries I use to audit these scenarios here.
    
 ## Note on Data Privacy
-* **MOCK DATA ONLY:** These scripts use generic table names (`SIS_Students`, `SIS_Teachers`) and mock fields. **no real data is used here.**
+**MOCK DATA ONLY:** **No real data is used here.** 
+*  These scripts use generic table names (`SIS_Students`, `SIS_Teachers`) and mock fields. 
 * All scripts are original logic created to demonstrate how I ensure data quality in a high-stakes educational environment.
