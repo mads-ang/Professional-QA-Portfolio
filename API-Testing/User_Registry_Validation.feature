@@ -17,3 +17,17 @@ Feature: User Registry API Validation
     Given the API endpoint is "https://jsonplaceholder.typicode.com/users/999"
     When I send a "GET" request
     Then the response status code should be 404
+
+@Regression @API
+  Scenario: Retrieve all users in the registry
+    Given the API endpoint is "https://jsonplaceholder.typicode.com/users"
+    When I send a "GET" request
+    Then the response status code should be 200
+    And the response body should contain a list of 10 users
+
+@Integration @API
+  Scenario: Retrieve posts associated with a specific user
+    Given the API endpoint is "https://jsonplaceholder.typicode.com/users/1/posts"
+    When I send a "GET" request
+    Then the response status code should be 200
+    And the response body should contain posts for UserID 1
