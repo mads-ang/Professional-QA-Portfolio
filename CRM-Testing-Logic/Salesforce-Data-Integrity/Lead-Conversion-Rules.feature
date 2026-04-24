@@ -1,3 +1,7 @@
+
+# -- INCOMPLETE - Work in progress --
+
+
 Feature: Salesforce Lead Lifecycle & Conversion Validation
   As a Product Owner, I want to ensure leads are captured accurately and validated against strict business rules before they are converted into Contacts to maintain high-quality sales data.
 
